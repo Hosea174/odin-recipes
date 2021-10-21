@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #ec6060;
+}
+.odin-recipes {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 700;
+  color: #fff;
+}
+.chef-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-size: 45px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+}
+#dishes a {
+  text-decoration: none;
+}
+.fav-dish li {
+  text-align: center;
+  font-size: 22px;
+}
+.fav-dish {
+  padding: 20px;
+  margin: 20px auto;
+  list-style: none;
+  width: 510px;
+  height: 60px;
+  background: #ffc30b;
+  box-shadow: 8px 17px 28px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  transition: all 0.2s 0s ease;
+}
+
+.fav-dish:hover {
+  background: #dfa909;
+  box-shadow: 15px 25px 35px rgba(0, 0, 0, 0.25);
+}
